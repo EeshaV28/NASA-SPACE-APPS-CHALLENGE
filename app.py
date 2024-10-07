@@ -173,7 +173,7 @@ elif page == "Analyze OSDR Data":
                 st.markdown(f"[View GeneLab Visualization for OSD-{osdr_number}]({genelab_url})", unsafe_allow_html=True)
 
                 chatgpt_url = f"https://chatgpt.com/"
-                st.markdown(f"[Talk to the ai chatbot for help!]", unsafe_allow_html=True)
+                st.markdown(f"[Talk to the AI chatbot for help!]({chatgpt_url})", unsafe_allow_html=True)
 
         else:
             st.error("Please upload a valid OSDR research data text file and enter the OSDR number.")
